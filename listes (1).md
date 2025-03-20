@@ -215,6 +215,31 @@ Si cette valeur maximale est présente plusieurs fois dans la liste, on retourne
 :class: tip, dropdown
 
 ```python
+
+Correction 2
+```
+l =[5,12,48,-2,0,-48,5,12]
+def posmax(l):
+    m, k=l[0],0
+    for i, e in enumerate(l):
+        if e > m:
+            m =e
+            k=i
+    return m,k
+   
+   
+print("Max est ", posmax(l))
+
+
+
+
+
+```
+
+
+
+
+
 def argmax(liste):
     i_max = None
     # On initialise elem_max à une valeur
