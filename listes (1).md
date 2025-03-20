@@ -216,7 +216,8 @@ Si cette valeur maximale est présente plusieurs fois dans la liste, on retourne
 
 ```python
 
-Correction 2
+
+### Correction 2
 ```
 l =[5,12,48,-2,0,-48,5,12]
 def posmax(l):
