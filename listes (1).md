@@ -551,10 +551,16 @@ l2=[3,1,-1]
 
 def intersection(l1,l2):
   l3=list()
-  for e in l1:
-    if e in l2:
-        l3.append(e)
-  return l3
+  for e in l1
+
 print(intersection(l1,l2))
 ```   
 4. [Union de listes](ex4.3)
+ ## CORRECTION
+ # Ex1
+def verifier(l):
+  for i in range(len(l)-1):
+    if l[i]>l[i+1]:
+      return False
+  return True
+verifier([0, 5, 8, 8, 9])
